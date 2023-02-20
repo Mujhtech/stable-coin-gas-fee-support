@@ -1,0 +1,37 @@
+{
+    "name": "stable-coin-gas-fee-support",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "hardhat:test": "yarn workspace @stable-coin-gas-fee-support/hardhat test",
+        "hardhat:test-local": "yarn workspace @stable-coin-gas-fee-support/hardhat test-local",
+        "hardhat:accounts": "yarn workspace @stable-coin-gas-fee-support/hardhat accounts",
+        "hardhat:devchain": "yarn workspace @stable-coin-gas-fee-support/hardhat devchain",
+        "hardhat:deploy": "yarn workspace @stable-coin-gas-fee-support/hardhat deploy",
+        "hardhat:deploy-reset-watch": "yarn workspace @stable-coin-gas-fee-support/hardhat deploy-reset-watch",
+        "hardhat:watch": "yarn workspace @stable-coin-gas-fee-support/hardhat watch",
+        "hardhat:fork-mainnet": "yarn workspace @stable-coin-gas-fee-support/hardhat fork-mainnet",
+        "react-app:dev": "yarn workspace @stable-coin-gas-fee-support/react-app dev",
+        "react-app:build": "yarn workspace @stable-coin-gas-fee-support/react-app build",
+        "react-app:start": "yarn workspace @stable-coin-gas-fee-support/react-app start",
+        "react-app:lint": "yarn workspace @stable-coin-gas-fee-support/react-app lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}

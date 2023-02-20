@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .form-control {
+    @apply p-2 w-full bg-transparent text-lg border border-b-4 border-r-4 border-black rounded-md text-black appearance-none ring-0 focus:ring-0 outline-none focus:border-black;
+    height: 45px;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
